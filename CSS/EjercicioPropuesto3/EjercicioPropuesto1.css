@@ -1,0 +1,308 @@
+html, body{
+    background-color: #f4f4f4;
+    
+}
+
+#Cabeza{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgba(26, 25, 25, 0.795);
+    overflow: hidden;
+    display: flex;
+    justify-content:space-between;
+    gap: 50px;
+    text-align: center;
+    
+}
+
+#Cabeza img{
+    width: 200px;
+}
+
+.Titulo {
+
+    text-align: center;
+    overflow: hidden;
+    flex: 1;
+    padding: 2%;
+
+}
+
+.Titulo h1{
+    color:rgba(17, 216, 54, 0.63);
+ 
+}
+
+.Icono_S{
+
+    
+    flex: 1;
+    background-color: blue;
+    padding: 2%;
+    
+    
+}
+
+.Icono_S :hover{
+    
+    transition: all 2s ease;
+    transform: rotate3d(0,1,0,360deg);
+}
+
+.Icono_B{
+
+    flex: 1;
+    background-color: red;
+    padding: 2%;
+
+}
+
+.Icono_B :hover{
+    
+    transform: scale(1.15);
+    transition: all 2s ease;
+    transform: rotate(360deg);
+}
+
+
+
+.Cuerpo_superior{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.Superman{
+    background-image:url();
+    flex: 1;
+    padding: 1%;
+    color: rgb(53, 21, 213);  
+}
+
+.Superman li{
+    color:orange;
+}
+
+.Batman{
+    background-image:url(imagenes/BG_B.jpg);
+    flex: 1;
+    padding: 1%;
+    color: yellow;
+}
+
+.Cuerpo_medio{
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    font-family:cursive;
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.Batarang{
+    position: absolute;
+    background-color: yellow;
+    color: white;
+    font-size: 15px;
+    top: 10px;
+    right: 50px;
+    border-radius: 10px;
+    transform: rotate(30deg); 
+
+}
+
+.Batarang :hover{
+    transform: scale(1.25);
+    box-shadow: black 5px 5px 10px;
+    background-color: yellow;
+    transform: rotate(360deg);
+    transition: all 2s ease;
+    color: black;
+}
+
+.Cuerpo_inferior{
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    width: 100%;
+    
+    
+}
+
+.Cuerpo_inferior p img{
+    width: 200px;
+    margin-top: 50%;
+    box-shadow: none;
+
+}
+
+.Cuerpo_inferior img{
+    width: 400px;
+    box-shadow: black 5px 5px 10px;
+}
+
+
+.Razones_Superman{
+    text-align: center;
+    flex: 1;
+}
+
+.VS{
+    text-align: center;
+    flex: 1;
+}
+
+.Razones_Batman{
+    text-align: center;
+    flex: 1;
+
+}
+.Razones_Batman h1{
+    text-align: center;
+}
+
+#Footer{
+    background-color: rgba(128, 128, 128, 0.39);
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    text-align: center;
+    padding: 2%;
+    
+}
+
+#Footer p img{
+    width: 400px;
+}
+
+#Footer img{
+    width: 200px;
+}
+
+.Lugar{
+    flex: 1;
+    
+    
+}
+
+.DC{
+    flex: 1;
+    overflow: hidden;
+    
+    
+}
+
+.Marvel{
+    flex: 1;
+    overflow: hidden;
+}
+
+@media (max-width: 768px){
+    html, body{
+        font-size: 1.2em;
+        align-items: center;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+    }
+
+    .Icono_S{
+        font-size: 1.2em;
+    }
+
+    .Titulo img{
+        font-size: 0.20em;
+    }
+    .Titulo{
+        font-size: 0.50em;
+    }
+    .Icono_B{
+        font-size: 1.2em;
+    }
+
+    .Cuerpo_superior{
+        color: chartreuse;
+        font-size: 1.3rem;
+    }
+
+    .Cuerpo_medio{
+        font-size: 0.75rem;
+        width: 100%;
+    }
+
+    .Batarang{
+        font-size: 0.5rem;
+    }
+
+    .Cuerpo_inferior{
+        font-size: 0.75rem;
+        width: 100%; 
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Razones_Batman{
+        max-width: 100px;
+        width: 50%;
+        max-width: max-content;
+    }
+
+    .VS{
+        max-width: 100px;
+        width: 50%;
+        max-width: max-content;
+    }
+
+    .Razones_Superman{
+        max-width: 100px;
+        width: 50%;
+        max-width: max-content;
+    }
+
+    #Footer{
+        font-size: 0.75rem;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Lugar{
+        max-width: max-content;
+    }
+
+    .DC{
+        max-width: 100px;
+        max-width: max-content;  
+    }
+
+    .Marvel{
+        max-width: 100px;
+        max-width: max-content;
+    }
+
+}
+
+@media (max-width: 500px){
+    html, body{
+        font-size: 0.75rem;
+    }
+
+    #Cabeza{
+        padding: 0;
+        margin: 0;
+    }
+
+    .Titulo h1{
+        font-size: 2rem;
+    }
+
+    .Batarang{
+        font-size: 0.75rem;
+    }
+    
+}
+
+

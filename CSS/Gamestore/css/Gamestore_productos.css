@@ -1,0 +1,146 @@
+html, body{
+    background-color:rgba(86, 67, 211, 0.566);
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/Fondo_header.jpg);
+    background-repeat: no-repeat;
+    background-size:contain;
+    font-weight: bold;
+    
+ 
+}
+
+header{
+   
+   font-family: 'Times New Roman', Times, serif;
+   background-repeat: no-repeat;
+   
+}
+
+header h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: chartreuse;
+    
+}
+
+header img{
+    text-align: center;
+    margin-left: 42%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: rgb(32, 86, 173);
+    color: white;
+    padding: 10px;
+}
+
+.Botones{
+    flex: 1;   
+    text-decoration: none;
+    color: white;
+    
+}
+
+.Botones:hover{
+    color: aqua;
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
+}
+
+.Oferta{
+    position: absolute;
+    background-color: red;
+    top: 10px;
+    right: 1px;
+    font-size: 20px;
+    transform: rotate(45deg);
+}
+
+.Play{
+    
+    background-color:rgb(22, 22, 154);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    flex-wrap: wrap;
+}
+
+.Play1{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.Play2{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.Juego_play{
+    background-color: #004aad;
+    color: white;
+    padding: 15px;
+    border-radius: 15px;
+    width: 200px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    margin: 10px;
+    position: relative;
+    border: 2px solid white;
+}
+
+.Nintendo{
+    
+    background-color:rgb(232, 10, 10);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    
+}
+
+.Nin1{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.Nin2{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.Juego_Nin{
+    background-color: rgb(177, 47, 47);
+    color: white;
+    padding: 15px;
+    border-radius: 15px;
+    width: 200px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    margin: 10px;
+    position: relative;
+    border: 2px solid white;
+}
+
+@media (max-width: 768px){
+    .html, body{
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .Juego_play{
+        width: 50%;
+        margin: 10px 0;
+    }
+
+    .Juego_Nin{
+        width: 50%;
+        margin: 10px 0;
+    }
+
+}

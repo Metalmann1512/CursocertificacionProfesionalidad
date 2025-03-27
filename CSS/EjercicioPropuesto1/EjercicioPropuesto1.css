@@ -1,0 +1,149 @@
+html, body{
+    background-color: #f4f4f4;
+    
+}
+
+#Cabeza{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgba(26, 25, 25, 0.795);
+    width: 100%;
+    overflow: hidden;
+    
+
+    
+}
+
+.Titulo {
+    width: 30%;
+    float: left;
+    text-align: center;
+    overflow: hidden;
+    padding: 2%;
+    margin-left: 20px;
+}
+
+.Titulo h1{
+    color:rgba(17, 216, 54, 0.63);
+}
+
+.Icono_S{
+    width: 28%;
+    float: left;
+    margin-right: 20px;
+    transform: scale(0.75);
+    
+    
+}
+
+.Icono_S :hover{
+    
+    transition: all 2s ease;
+    transform: rotate3d(0,1,0,360deg);
+}
+
+.Icono_B{
+    width: 28%;
+    float: left;
+    margin-left: 20px;
+    margin-right: 50px;
+}
+
+.Icono_B :hover{
+    transform: scale(1.15);
+    transition: all 2s ease;
+    transform: rotate(360deg);
+}
+
+#Cuerpo{
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.Cuerpo_superior{
+    width: 100%;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.Superman{
+    background-image:url(imagenes/BG_S.jpg);
+    width: 48%;
+    padding: 1%;
+    float: left;
+    color: rgb(53, 21, 213);  
+}
+
+.Superman li{
+    color:orange;
+}
+
+.Batman{
+    background-image:url(imagenes/BG_B.jpg);
+    width: 48%;
+    padding: 1%;
+    float: right; 
+    color: yellow;
+}
+
+.Cuerpo_medio{
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    font-family:cursive;
+    overflow: hidden;
+}
+
+.Razones_Superman{
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+
+.VS{
+    width: 45%;
+    float: left;
+    text-align: center;
+    margin-top: 15%;
+}
+
+.Razones_Batman{
+    width: 25%;
+    float: left;
+    text-align: center;
+
+}
+.Razones_Batman h1{
+    text-align: center;
+}
+
+#Footer{
+    background-color: rgba(128, 128, 128, 0.39);
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+}
+
+.Lugar{
+    width: 25%;
+    float: left;
+    
+    
+}
+
+.DC{
+    width: 25%;
+    float:left;
+    overflow: hidden;
+    margin-left: 300px
+}
+
+.Marvel{
+    width: 25%;
+    float: right;
+    overflow: hidden;
+}
+
+
+

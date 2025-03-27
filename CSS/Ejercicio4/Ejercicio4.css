@@ -1,0 +1,59 @@
+html, body{
+
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+#Eventos{
+    background-color: #999;
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: #333 5px 5px 10px;
+    text-align: center;
+}
+
+h1{
+    color: white;
+    text-shadow: #333 1px 1px 1px;
+    font-size: 40px;
+}
+
+.Caja{
+    background-color: #f7efef;
+    border: #333 1px solid;
+    border-radius: 8px;
+    box-shadow: #333 3px 3px 3px;
+    width: 80%;
+    margin: 15px auto;
+    padding: 10px;
+    transition: transform 0.3s ease;
+}
+
+.Caja:hover{
+
+    transform: scale(1.1);
+}
+
+.Caja img:hover{
+
+    border: #333 2px solid;
+    transform: scale(0.9);
+    filter: brightness(5);
+    filter: contrast(1.5);
+}
+
+.Caja h1{
+
+    font-size: 30px;
+}
+
+.Caja img{
+
+    width: 80%;
+    transition: 0.5s ease, 0.5s ease, border 0.5s;
+    
+}

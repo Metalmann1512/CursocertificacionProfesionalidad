@@ -1,0 +1,79 @@
+html{
+    background-color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2{
+    font-size: 25px;
+    color: blueviolet;
+}
+
+#Título{
+
+    text-align: center;
+    font-size: 30;
+    color:azure;
+    background-color:black;
+    padding: 1%;
+    margin: 0%;
+}
+
+.section1{
+
+    font-size: 10;
+    text-align: center;
+    background-color: burlywood;
+    padding: 1%;
+    margin: 1%;
+    
+}
+
+.section2{
+
+    font-size: 10;
+    text-align: center;
+    background-color: burlywood;
+    padding: 1%;
+    margin: 1%;
+    
+}
+
+.pasatiempos1{
+
+    float: left;
+    padding: 0%;
+    font-size: 18px;
+    overflow:hidden;
+    width: 49%;
+    text-align:right;
+    
+}
+
+
+.pasatiempos2{
+
+    float:right;
+    padding: 0%;
+    font-size: 18px;
+    overflow:hidden;
+    width: 49%;
+    text-align:left;
+   
+
+}
+
+.pasatiempos3{
+    text-align: center;
+    font-size: 18px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.footer{
+
+    font-size: 10;
+    background-color: chartreuse;
+    text-align: center;
+    padding: 1%;
+    width: 98%;
+}

@@ -1,0 +1,98 @@
+html, body{
+    background-color:rgba(86, 67, 211, 0.566);
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/Fondo_header.jpg);
+    background-repeat: no-repeat;
+    background-size:contain;
+    
+ 
+}
+
+header{
+   
+   font-family: 'Times New Roman', Times, serif;
+   background-repeat: no-repeat;
+   
+}
+
+header h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: chartreuse;
+    
+}
+
+header img{
+    text-align: center;
+    margin-left: 42%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: rgb(32, 86, 173);
+    color: white;
+    padding: 10px;
+}
+
+.Botones{
+    flex: 1;   
+    text-decoration: none;
+    color: white;
+}
+
+.Botones:hover{
+    color: aqua;
+}
+
+main{
+    background-color: lightblue;
+    width: 100%;
+    color: black;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main p{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
+}
+
+.Somos{
+    padding: 20px;
+    border-radius: 10%;
+    flex: 1;
+    width: 100%;
+    
+}
+
+.Dedicamos{
+    padding: 20px;
+    border-radius: 10%;
+    flex: 1;
+}
+
+.Servicios{
+    padding: 20px;
+    border-radius: 10%;
+    flex: 1;
+}
+
+footer{
+    background-color: blue;
+    text-align: center;
+    color: white;
+}
+
+@media (max-width: 768px){
+    .html, body{
+        align-items: center;
+        flex-direction: column;
+    }
+
+}

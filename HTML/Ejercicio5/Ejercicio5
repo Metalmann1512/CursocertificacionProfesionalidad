@@ -1,0 +1,35 @@
+<!doctype html>
+  <html lang="es">
+  <head>
+  <meta charset="utf-8" />
+  <title>aulaClic. Cursos gratis</title>
+  <link rel="stylesheet" type="text/css" href="css/aulaclic.css" />
+  </head>
+  <body>
+  
+
+  <picture>
+    <source media="(orientation: portrait) and  (max-width: 500px)" srcset="imagenes/Imagenes.jpg" >
+    <img src="imagenes/Imagenes.jpg" alt="Imagenes">
+    </picture>
+
+  <p>La primera web en español sobre cursos de informática gratis on-line.</p>
+  <ul>
+   <li><h2>Cursos de aulaClic</h2></li>
+    <ol>
+       <li>Access 2016</li>
+       <li>Excel 2016</li>
+       <li>Internet</li>
+       <li>Windows</li>
+    </ol>
+  <li><h2>Cursos de colaboradores</h2></li>
+    <ol start="5">
+      <li>autoCAD 2015</li>
+      <li>Estadística con Excel</li>
+      <li>Joomla</li>
+    </ol>
+  </ul>
+<hr>
+<p><a href="https://www.google.com/search?sca_esv=88576adaa55fa00a&q=imagenes&udm=2&fbs=ABzOT_BnMAgCWdhr5zilP5f1cnRvK9uZj3HA_MTJAA6lXR8yQElaIApxtef1-RKg2CcwxXYsQSt6QRAacgvTpE0SimnyYj0K7l_rkN7dKXWgXOzSLAMfHPkSKknUEy2hoNFiQ8wMeh9GNqyS9dntEBakKnRty-ZG3P61Pp1Le4NjJnVNvNo8Aj78SqB-Fnrs_86BbNJ6Q_sXbmaU6r4HMmf2LwjEDYqSDg&sa=X&ved=2ahUKEwjfo7vKiJmMAxXOgP0HHb3fMYwQtKgLegQIExAB&biw=1280&bih=593&dpr=1.5" target="_blank"> <b>Política de cookies</b></a> </p>
+</body>
+</html>	
