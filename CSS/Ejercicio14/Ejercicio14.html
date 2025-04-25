@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Ejercicio14.css">
+</head>
+
+<body>
+    <section class="slider">
+        <input type="radio" name="slider" id="slide1" checked>
+        <input type="radio" name="slider" id="slide2">
+        <input type="radio" name="slider" id="slide3">
+        <!-- se tienen que llamar igual para que todas esten agrupadas en un mismo grupo -->
+
+
+        <div class="slides">
+            <div class="slide s1"><img src="imagenes/Imagen1.webp">
+                <div class="caption">
+                    <h2>Alta calidad</h2>
+                    <p>Piezaas resistentes y duraderas</p>
+                </div>
+            </div>
+            <div class="slide s2"><img src="imagenes/Imagen2.jpeg">
+                <div class="caption">
+                    <h2>Alta belleza</h2>
+                    <p>bonito coche</p>
+                </div>
+            </div>
+            <div class="slide s3"><img src="imagenes/Imagen3.jpg">
+                <div class="caption">
+                    <h2>Alta maniobrabilidad</h2>
+                    <p>Buem movimiento</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="nav-arrows">
+            <label for="slide3" class="arrow prev">&#10094;</label>
+            <label for="slide2" class="arrow next">&#10095;</label>
+
+            <label for="slide1" class="arrow prev">&#10094;</label>
+            <label for="slide3" class="arrow next">&#10095;</label>
+
+            <label for="slide2" class="arrow prev">&#10094;</label>
+            <label for="slide1" class="arrow next">&#10095;</label>
+
+
+        </div>
+
+    </section>
+</body>
+
+</html>

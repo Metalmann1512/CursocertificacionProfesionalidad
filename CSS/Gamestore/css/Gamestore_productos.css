@@ -2,9 +2,6 @@ html, body{
     background-color:rgba(86, 67, 211, 0.566);
     margin: 0;
     padding: 0;
-    background-image: url(../img/Fondo_header.jpg);
-    background-repeat: no-repeat;
-    background-size:contain;
     font-weight: bold;
     
  
@@ -14,6 +11,10 @@ header{
    
    font-family: 'Times New Roman', Times, serif;
    background-repeat: no-repeat;
+   background-image: url(../img/Fondo_header.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    animation: fadeIn 2s ease-in-out;
    
 }
 
@@ -22,12 +23,18 @@ header h1{
     font-size: 50px;
     font-weight: bold;
     color: chartreuse;
+    animation: bounce 1s ease-in-out;
+    cursor: pointer;
     
 }
 
 header img{
     text-align: center;
     margin-left: 42%;
+}
+
+header img:hover{
+    animation: spin 0.5s infinite;
 }
 
 nav{
@@ -59,6 +66,9 @@ nav{
     right: 1px;
     font-size: 20px;
     transform: rotate(45deg);
+    animation: pulse 1s infinite;
+    padding: 2%;
+    border-radius: 10px;
 }
 
 .Play{
@@ -92,6 +102,7 @@ nav{
     margin: 10px;
     position: relative;
     border: 2px solid white;
+    cursor: pointer;
 }
 
 .Nintendo{
@@ -125,6 +136,29 @@ nav{
     margin: 10px;
     position: relative;
     border: 2px solid white;
+    cursor: pointer;
+}
+
+@keyframes pulse{
+    from {transform: scale(1);}
+    to {transform: scale(1.2);}
+}
+
+@keyframes spin{
+    from {transform: rotate(0deg);}
+    to {transform: rotate(-360deg);}
+}
+
+@keyframes bounce{
+    0%, 100% {transform: translatey(0);}
+    25% {transform: translateY(-10px);}
+    50% {transform: translateY(0px);}
+    75% {transform: translateY(10px);}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0; transform: translateX(-50px);}
+    to {opacity: 1; transform: translateX(0);}
 }
 
 @media (max-width: 768px){
@@ -144,3 +178,4 @@ nav{
     }
 
 }
+

@@ -1,0 +1,115 @@
+@layer reset, base, layout, components, utilities;
+
+@layer reset {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+}
+
+@layer base {
+    :root {
+        --font-primary: 'Segoe UI', sans-serif;
+        --color-bg: #fefefea9;
+        --color-text: #939090;
+        --color-accent: rgb(80, 77, 77);
+        --color-dark: #1d1d1d;
+        --spacing-md: 1.5rem;
+        --spacing-lg: 3rem;
+        --radius: 8px;
+    }
+
+    body {
+        font-family: var(--font-primary);
+        background-color: var(--color-bg);
+        color: var(--color-text);
+        line-height: 1.6;
+    }
+}
+
+@layer layout {
+    header {
+        color: var(--color-text);
+        padding: 10px 0;
+        text-align: center;
+
+        font-family: 'Times New Roman', Times, serif;
+        background-repeat: no-repeat;
+        background-image: url('Imagenes_general/Fondo_Inicio.jpg');
+        background-size: cover;
+        padding: 50px;
+        border-color: black;
+
+    }
+
+    header .Inicio_P{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .Nombre{
+        font-size: 20px;
+        color: gold;
+        font-weight: bold;
+        text-shadow: 2px 2px 2px rgb(80, 77, 77);
+    }
+
+    .Slogan{
+        font-size: 15px;
+        color: black;
+        text-shadow: 5px 5px 5px rgb(245, 231, 110);
+        padding: 10px;
+        font-weight: bold;
+    }
+
+    header nav {
+        margin-top: 1rem;
+        font-size: 20px;
+    }
+
+    header nav a {
+        margin: 0 1rem;
+        font-weight: bold;
+    }
+
+    main {
+        padding: 20px;
+        background-color: rgb(135, 133, 133);
+    }
+
+    .Nav {
+        background-color: rgb(181, 180, 181);
+        padding: 20px;
+        text-align: center;
+        border-radius: 15%;
+        text-decoration: none;
+        justify-content: space-evenly;
+    }
+
+    .Nav ul li {
+        list-style: none;
+        margin: 0 10px;
+        padding: 10px;
+        display: inline-block;
+        color: gold;
+        font-weight: bold;
+        text-shadow: 2px 2px 2px rgb(28, 28, 28);
+    }
+
+    footer{
+        background-color: rgb(102, 100, 100);
+        padding: 20px;
+        text-align: center;
+        border-radius: 15%;
+        text-decoration: none;
+        justify-content: space-evenly;
+        margin-top: 50px;
+    }
+
+}

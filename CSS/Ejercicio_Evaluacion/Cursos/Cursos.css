@@ -1,0 +1,206 @@
+.Listado{
+    background-color: rgb(81, 78, 78);
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 2px rgb(28, 28, 28);
+}
+
+.Listado h2{
+    color: rgba(249, 249, 248, 0.966);
+    text-shadow: 2px 2px 2px rgb(28, 28, 28);
+}
+
+.Listado ul li p{
+    text-align: center;
+    display: grid;
+}
+
+.li_S{
+    display: inline-grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    padding: 20px;
+    list-style: none;
+    margin: 0;
+}
+
+.li_I{
+    display: inline-grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    padding: 20px;
+    list-style: none;
+    margin: 0;
+}
+
+.Karate{
+    margin-right: 20px;
+    background-color: rgb(196, 36, 36);
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.Taekwondo{
+    margin-right: 20px;
+    background-color: rgba(46, 182, 206, 0.856);
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.Jiu-Jitsu{
+    margin-right: 20px;
+    background-color: rgba(213, 105, 33, 0.856);
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.DefensaPersonal{
+    margin-right: 20px;
+    background-color: rgba(243, 235, 235, 0.856);
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.ArtesMarcialesNiños{
+    margin-right: 20px;
+    background-color: rgba(79, 196, 53, 0.856);
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.niveles{
+    background-color: rgb(81, 78, 78);
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 2px rgb(28, 28, 28);
+    text-align: center;
+}
+
+.niveles-L{
+    display: inline-grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.Principiante{
+    margin-right: 20px;
+    background-color: rgba(63, 61, 61, 0.856);
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.Principiante h2{
+    color: rgba(209, 207, 196, 0.749);
+    text-shadow: 2px 2px 2px rgb(28, 28, 28);
+}
+
+.Boton_Principiante{
+    margin-top: 20px;
+    background-color: gold;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+.Intermedio{
+    margin-right: 20px;
+    background-color: rgba(63, 61, 61, 0.856);
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.Intermedio h2{
+    color: rgba(209, 207, 196, 0.749);
+    text-shadow: 2px 2px 2px rgb(28, 28, 28);
+}
+
+.Boton_Intermedio{
+    margin-top: 20px;
+    background-color: gold;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+.Boton_Intermedio:hover{
+    transform: scale(1.2), rotate3d(1, 1, 3, 360deg);
+    background-color: orange;
+    transition: all 1s ease;
+    
+}
+
+
+
+.Avanzado{
+    margin-right: 20px;
+    background-color: rgba(63, 61, 61, 0.856);
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.Avanzado h2{
+    color: rgba(209, 207, 196, 0.749);
+    text-shadow: 2px 2px 2px rgb(28, 28, 28);
+}
+
+.Boton_Avanzado{
+    margin-top: 20px;
+    background-color: gold;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+
+
+.Horarios{
+    background-color: rgb(81, 78, 78);
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 2px rgb(28, 28, 28);
+    margin-top: 10px;
+}
+
+.Beneficios{
+    background-color: rgb(81, 78, 78);
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 2px rgb(28, 28, 28);
+    text-align: center;
+}
+
+.Boton_Accion{
+    margin-top: 20px;
+    background-color: rgb(81, 78, 78);
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    color: black;
+}
+

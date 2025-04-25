@@ -1,0 +1,152 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0;
+    margin: 0;
+    background-color: rgba(128, 41, 0, 0.758);
+}
+
+header{
+    text-align: center;
+    background-image: url(Imagenes/Imagenes_Inicio/Fondo_header.jpg!w700wp);
+    background-size: cover;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+header ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+header li{
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    transition: color 0.3s;
+}
+
+header ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    transform: color 0.3s ease;
+}
+
+header ul li a:hover{
+    color: bisque;
+}
+
+.Cuerpo_superior{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    
+}
+
+.nosotros{
+    background-color: rgb(148, 55, 21);
+    color: white;
+    padding: 15px;
+    border-radius: 15px;
+    width: 90%;
+    margin: 50px;
+    font-size: 20px;
+}
+
+.nosotros h2{
+    color: bisque;
+}
+
+.nosotros p{
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+    font-size: 17px;
+    color: rgba(255, 255, 255, 0.703);
+
+}
+
+.Cuerpo_inferior{
+    display: flex;
+}
+
+
+
+.Premios{
+    width: 50%;
+    flex: 1;
+    background: url(Imagenes/Imagenes_Inicio/Fondo_Premios.jpg);
+    text-align: center;
+    align-items: center;
+    padding: 20px 20px;
+    border-radius: 15px;
+    margin: 20px;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.Premios img{
+    width: 200px;
+}
+
+.Cafe{
+    width: 50%;
+    flex: 2;
+    background: url(Imagenes/Imagenes_Inicio/Fondo_Premios.jpg);
+    text-align: center;
+    align-items: center;
+    padding: 20px 20px;
+    border-radius: 15px;
+    margin: 20px;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+footer{
+    text-align: center;
+    background-image: url(Imagenes/Imagenes_Inicio/Fondo_header.jpg!w700wp);
+    background-size: cover;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+footer ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+footer li{
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    transition: color 0.3s;
+}
+
+footer ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    transform: color 0.3s ease;
+    margin-left: 20%;
+}
+
+footer ul li a:hover{
+    color: bisque;
+}

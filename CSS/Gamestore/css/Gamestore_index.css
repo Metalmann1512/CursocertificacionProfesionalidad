@@ -2,9 +2,6 @@ html, body{
     background-color:rgba(86, 67, 211, 0.566);
     margin: 0;
     padding: 0;
-    background-image: url(../img/Fondo_header.jpg);
-    background-repeat: no-repeat;
-    background-size:contain;
     
  
 }
@@ -13,6 +10,10 @@ header{
    
    font-family: 'Times New Roman', Times, serif;
    background-repeat: no-repeat;
+   background-image: url(../img/Fondo_header.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    animation: fadeIn 2s ease-in-out;
    
 }
 
@@ -21,12 +22,19 @@ header h1{
     font-size: 50px;
     font-weight: bold;
     color: chartreuse;
+    animation: bounce 1s ease-in-out;
+    cursor: pointer;
+
     
 }
 
 header img{
     text-align: center;
     margin-left: 42%;
+}
+
+header img:hover{
+    animation: spin 0.5s infinite;
 }
 
 nav{
@@ -68,6 +76,7 @@ main p{
     border-radius: 10%;
     flex: 1;
     width: 100%;
+    animation: fadeIn 1s ease-in-out;
     
 }
 
@@ -75,19 +84,50 @@ main p{
     padding: 20px;
     border-radius: 10%;
     flex: 1;
+    animation: fadeIn 2s ease-in-out;
 }
 
 .Servicios{
     padding: 20px;
     border-radius: 10%;
     flex: 1;
+    animation: fadeIn 3s ease-in-out;
 }
 
 footer{
     background-color: blue;
     text-align: center;
     color: white;
+    animation: slideIn 3.5s ease-in-out;
 }
+
+@keyframes fadeIn{
+    from {opacity: 0; transform: translateX(-50px);}
+    to {opacity: 1; transform: translateX(0);}
+}
+
+@keyframes slideIn{
+    from {opacity: 0; transform: translatey(-50px);}
+    to {opacity: 1; transform: translatey(0);}
+}
+
+@keyframes spin{
+    from {transform: rotate(0deg);}
+    to {transform: rotate(-360deg);}
+}
+
+@keyframes bounce{
+    0%, 100% {transform: translatey(0);}
+    25% {transform: translateY(-10px);}
+    50% {transform: translateY(0px);}
+    75% {transform: translateY(10px);}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0; transform: translateX(-50px);}
+    to {opacity: 1; transform: translateX(0);}
+}
+
 
 @media (max-width: 768px){
     .html, body{

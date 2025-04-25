@@ -1,0 +1,43 @@
+.informacion{
+    background-color: rgb(81, 78, 78);
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 2px rgb(28, 28, 28);
+}
+
+.Horario{
+    background-color: rgb(81, 78, 78);
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 2px rgb(28, 28, 28);
+    text-align: center;
+}
+
+.Mapa{
+    background-color: rgb(81, 78, 78);
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 2px rgb(28, 28, 28);
+    text-align: center;
+}
+
+.FAQ{
+    background-color: rgb(81, 78, 78);
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 2px rgb(28, 28, 28);
+    text-align: center;
+}

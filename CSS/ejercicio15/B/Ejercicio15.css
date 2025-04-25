@@ -1,0 +1,181 @@
+@layer reset, base, layout, components, utilities;
+ 
+  @layer reset {
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+  }
+
+  @layer base {
+    :root {
+        --font-primary: 'Segoe UI', sans-serif;
+        --color-bg: #fefefea9;
+        --color-text: #333;
+        --color-accent: rgb(191, 90, 107);
+        --color-dark: #1d1d1d;
+        --spacing-md: 1.5rem;
+        --spacing-lg: 3rem;
+        --radius: 8px;
+    }
+
+    body {
+        font-family: var(--font-primary);
+        background-color: var(--color-bg);
+        color: var(--color-text);
+        line-height: 1.6;
+    }
+}
+  @layer layout {
+    header {
+      color: white;
+      padding: 10px 0;
+      text-align: center;
+
+      font-family: 'Times New Roman', Times, serif;
+            background-repeat: no-repeat;
+            background-image: url('imagenes/Fondo_Disney.jpg');
+             background-size:cover;
+            padding: 50px 0px;
+             animation: fadeIn 2s ease-in-out;
+
+    }
+
+    header nav {
+        margin-top: 1rem;
+    }
+
+    header nav a {
+        margin: 0 1rem;
+        font-weight: bold;
+    }
+    
+    main {
+      padding: 20px;
+        background-color: pink;
+    }
+
+    .Portada{
+      background: linear-gradient(to right, rgb(200, 132, 143), rgb(200, 132, 143));
+      padding: 20px;
+      text-align: center;
+      border-radius: 15%;
+      text-decoration: none;
+      justify-content: space-evenly;
+    }
+
+    .Portada ul li{
+        list-style: none;
+        margin: 0 10px;
+        padding: 10px;
+        display: inline-block;
+    }
+
+    .Merchandise{
+      background: linear-gradient(to right, rgb(200, 132, 143), rgb(200, 132, 143));
+      padding: 20px;
+      text-align: center;
+      border-radius: 15%;
+      text-decoration: none;
+      justify-content: space-evenly;
+      margin-top: 50px;
+    }
+
+    .Merchandise ul li{
+        list-style: none;
+        margin: 0 10px;
+        padding: 10px;
+        display: inline-block;
+    }
+
+    .Muñeco{
+        position: relative;
+    }
+    .Oferta{
+        position: absolute;
+        background-color: rgba(255, 0, 0, 0.582);
+        top: 50px;
+        right: 1px;
+        font-size: 20px;
+        transform: rotate(45deg);
+        animation: pulse 1s infinite;
+        padding: 2%;
+        border-radius: 10px;
+    }
+
+    .Precio{
+        background-color: white;
+        color: #333;
+        font-weight: bold;
+    }
+    
+    footer {
+      background-color: rgb(207, 91, 110);
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+    }
+  }
+
+  @layer components {
+    .btn {
+        display: inline-block;
+        background: white;
+        color: var(--color-accent);
+        padding: 0.75rem 1.5rem;
+        border-radius: var(--radius);
+        font-weight: bold;
+        transition: transform 0.3s, background 0.3s;
+
+    }
+
+    .btn:hover {
+        transform: scale(1.05);
+        background: #e5e5ff;
+    }
+  }
+
+  @layer utilities {
+    .text-center {
+      text-align: center;
+    }
+    
+    .mb-20 {
+      margin-bottom: 20px;
+    }
+    
+    .mt-20 {
+      margin-top: 20px;
+    }
+    
+    .p-20 {
+      padding: 20px;
+    }
+    
+    .bg-light {
+      background-color: #f8f9fa !important; /* Use !important to override other styles */
+    }
+    
+    .text-dark {
+      color: #343a40 !important; /* Use !important to override other styles */
+    }
+    
+    .border-radius-5 {
+      border-radius: 5px !important; /* Use !important to override other styles */
+    }
+    
+    .shadow-sm {
+      box-shadow: 0 .125rem .25rem rgba(0,0,0,.075) !important; /* Use !important to override other styles */
+    }
+    
+    .shadow-lg {
+      box-shadow: 0 .5rem 1
+    }
+
+  }

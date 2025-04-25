@@ -1,0 +1,56 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.banner{
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    overflow: hidden;
+}
+
+.slide{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    animation: bannerFade 12s infinite;
+}
+
+.slide1{
+    background-image: url(../ejercicio10/imagenes10B/Imagen1.webp);
+    animation-delay: 0s;
+}
+
+.slide2{
+    background-image: url(../ejercicio10/imagenes10B/Imagen2.jpeg);
+    animation-delay: 4s;
+}
+
+.slide3{
+    background-image: url(../ejercicio10/imagenes10B/Imagen3.jpg);
+    animation-delay: 8s;
+}
+
+@keyframes bannerFade {
+    0% {opacity: 0;}
+    8% {opacity: 1;}
+    25% {opacity: 1;}
+    33% {opacity: 0;}
+    100% {opacity: 0;}
+
+}
+
+.overlay{
+    position: absolute;
+    z-index: 10; /*posicion una encima de otra */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+    padding: 20px;
+}
